@@ -1,0 +1,29 @@
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.event {
+  margin-bottom: 1.5em;
+  background: white;
+  border-left: 5px solid #2e3b4e;
+  padding: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.event:hover {
+  background: #f0f0f0;
+}
+
+.details {
+  display: none;
+  margin-top: 1em;
+}
+
+.details img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
