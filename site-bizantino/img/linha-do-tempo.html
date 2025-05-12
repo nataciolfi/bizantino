@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Linha do Tempo - Império Bizantino</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/timeline.css" />
+  <script src="js/timeline.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Linha do Tempo</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="linha-do-tempo.html">Linha do Tempo</a></li>
+        <li><a href="cultura.html">Cultura</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="timeline">
+      <div class="event" onclick="toggleDetails('evento1')">
+        <h3>330 d.C. – Fundação de Constantinopla</h3>
+        <div class="details" id="evento1">
+          <img src="img/constantinopla.jpg" alt="Fundação de Constantinopla">
+          <p>Constantino, o Grande, inaugura Constantinopla como a nova capital do Império Romano.</p>
+        </div>
+      </div>
+
+      <div class="event" onclick="toggleDetails('evento2')">
+        <h3>527 d.C. – Reinado de Justiniano</h3>
+        <div class="details" id="evento2">
+          <img src="img/justiniano.jpg" alt="Justinian">
+          <p>Início do reinado de Justiniano I, responsável por grandes conquistas e pelo Código de Justiniano.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
